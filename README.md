@@ -1,12 +1,33 @@
-# Google Container
+# Google Container via NewAlexandria	
 
-**Prevent Google from tracking your visits to other websites**
+This is a fork of forks, from Mozilla's [Facebook Container]() to the [Google Container](https://github.com/containers-everywhere/contain-google
+) the most-popular Google Container.  
 
-This is a fork of [Facebook Container](https://github.com/mozilla/contain-facebook)
+I will maintain thus until additional domains are merged into it — and then I'll remove this. Additional google domains in this plugin include:   Youtube, google services / apps, google adtech domains, google utility domains, typo domains (probably not used for cookies, but just-in-case), other Alphabet companies, more google developer domains.  
+
+Also an initial list of 3rd party integration apps was added (draw.io, etc).  Some of these will work without explicitly adding the to the Google Container, but many do not, an a more complete list is convenient, if not prudent.
+
+##### Prevents Google from tracking your visits to other websites
 
 Google Container is an add-on you can install on Firefox to prevent Google from tracking your activity on other websites, so you can continue to use Google while protecting your privacy.
 
 **Note:** To learn more about Containers in general, see [Firefox Multi-Account Containers](https://support.mozilla.org/kb/containers).
+
+#### Installation 
+
+1. Get it from the Firefox Add-on Site
+2. You can install this add-on from the `.xpi` file included in this repo.
+2. Or follow the instructions below:
+
+To use this plugin locally, you will need to build and load it manually into Firefox.  
+
+1. be sure you are using the latest verstion of FF
+2. download this repo and build it
+3. visit `about:config` in your Firefox browser
+4. set `xpinstall.signatures.required` to `false`
+5. install fia the Extensions page
+
+Remember to be cautious of new extensions, and malicious sites that may try to auto-install them!
 
 ## How does Google Container work?
 
