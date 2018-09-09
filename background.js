@@ -34,9 +34,15 @@ const DEVELOPER_DOMAINS = [
 ];
 
 
+const GOOGLE_APPS_SAAS = [
+  "cloudcraft.co", "draw.io"
+];
+
+
 GOOGLE_DOMAINS = GOOGLE_DOMAINS.concat(GOOGLE_INTL_DOMAINS)
   .concat(GOOGLE_SERVICES).concat(YOUTUBE_DOMAINS).concat(BLOGSPOT_DOMAINS).concat(ALPHABET_DOMAINS)
-  .concat(DEVELOPER_DOMAINS).concat(AD_DOMAINS);
+  .concat(DEVELOPER_DOMAINS).concat(AD_DOMAINS)
+  .concat(GOOGLE_APPS_SAAS);
 
 
 
