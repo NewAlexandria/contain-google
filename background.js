@@ -18,6 +18,7 @@ const GOOGLE_SERVICES = [
 const YOUTUBE_DOMAINS = [
   "youtube.com", "youtu.be", "yt.be", "ytimg.com", " youtube-nocookie.com", "youtubegaming.com", "youtubeeducation.com", "youtube-nocookie.com",
 ];
+
 const BLOGSPOT_DOMAINS = ["blogspot.com", "blogspot.ae", "blogspot.al", "blogspot.am", "blogspot.com.ar", "blogspot.co.at", "blogspot.com.au", "blogspot.ba", "blogspot.be", "blogspot.bg", "blogspot.bj", "blogspot.com.br", "blogspot.com.by", "blogspot.ca", "blogspot.cf", "blogspot.ch", "blogspot.cl", "blogspot.com.co", "blogspot.cv", "blogspot.com.cy", "blogspot.cz", "blogspot.de", "blogspot.dj", "blogspot.dk", "blogspot.dm", "blogspot.com.do", "blogspot.dz", "blogspot.com.eg", "blogspot.es", "blogspot.fi", "blogspot.fr", "blogspot.gr", "blogspot.hr", "blogspot.hu", "blogspot.co.id", "blogspot.ie", "blogspot.co.il", "blogspot.in", "blogspot.is", "blogspot.it", "blogspot.jp", "blogspot.co.ke", "blogspot.kr", "blogspot.li", "blogspot.lt", "blogspot.lu", "blogspot.md", "blogspot.mk", "blogspot.com.mt", "blogspot.mx", "blogspot.my", "blogspot.com.ng", "blogspot.nl", "blogspot.no", "blogspot.co.nz", "blogspot.pt", "blogspot.qa", "blogspot.ro", "blogspot.rs", "blogspot.ru", "blogspot.se", "blogspot.sg", "blogspot.si", "blogspot.sk", "blogspot.sn", "blogspot.com.sr", "blogspot.td", "blogspot.co.tl", "blogspot.co.to", "blogspot.com.tr", "blogspot.tw", "blogspot.co.uk", "blogspot.com.uy", "blogspot.co.za"];
 const ALPHABET_DOMAINS = [
   "abc.xyz", "waze.com", "capitalg.com", "gv.com", "calicolabs.com", "x.company", "nest.com", "sidewalklabs.com", "verily.com"
@@ -34,11 +35,14 @@ const DEVELOPER_DOMAINS = [
 ];
 
 
-GOOGLE_DOMAINS = GOOGLE_DOMAINS.concat(GOOGLE_INTL_DOMAINS)
-  .concat(GOOGLE_SERVICES).concat(YOUTUBE_DOMAINS).concat(BLOGSPOT_DOMAINS).concat(ALPHABET_DOMAINS)
-  .concat(DEVELOPER_DOMAINS).concat(AD_DOMAINS);
-
-
+GOOGLE_DOMAINS = GOOGLE_DOMAINS
+  .concat(GOOGLE_INTL_DOMAINS)
+  .concat(GOOGLE_SERVICES)
+  .concat(YOUTUBE_DOMAINS)
+  .concat(BLOGSPOT_DOMAINS)
+  .concat(ALPHABET_DOMAINS)
+  .concat(DEVELOPER_DOMAINS)
+  .concat(AD_DOMAINS);
 
 const MAC_ADDON_ID = "@testpilot-containers";
 
