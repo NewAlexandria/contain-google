@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Google Container - with Integrations",
-    "version": "1.4.6",
+    "version": "1.4.10",
 
     "description": "Fork of the main Google Container, to add domains connected with Drive apps.  Isolates your Google activity from the rest of your web activity in order to prevent Google from tracking you outside of the Google website via third party cookies.",
 
@@ -12,7 +12,7 @@
 
     "applications": {
       "gecko": {
-        "id": "@contain-google-newalexandria",
+        "id": "@contain-google-with-apps",
         "strict_min_version": "57.0"
       }
     },
