@@ -35,7 +35,7 @@ const DEVELOPER_DOMAINS = [
 
 
 const GOOGLE_APPS_SAAS = [
-  "cloudcraft.co", "draw.io", "bilth.com"
+  "cloudcraft.co", "draw.io", "bilth.com", "atlassian.net", "atlassian.com"
 ];
 
 
