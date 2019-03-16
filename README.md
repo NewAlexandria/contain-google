@@ -1,13 +1,14 @@
 ![repo icon](https://user-images.githubusercontent.com/87758/45265637-fdcd3180-b41b-11e8-9cd3-78b8817c880c.png)
 
-# Google Container via NewAlexandria	
+# Google Container - with Integrations
 
-This is a fork of forks, from Mozilla's [Facebook Container]() to the [Google Container](https://github.com/containers-everywhere/contain-google
-) the most-popular Google Container.  
+This is a fork of forks, from Mozilla's [Facebook Container]() to the [Google Container](https://github.com/containers-everywhere/contain-google) the most-popular Google Container.  
 
 I will maintain thus until additional domains are merged into it — and then I'll remove this. Additional google domains in this plugin include:   Youtube, google services / apps, google adtech domains, google utility domains, typo domains (probably not used for cookies, but just-in-case), other Alphabet companies, more google developer domains.  
 
 Also an initial list of 3rd party integration apps was added (draw.io, etc).  Some of these will work without explicitly adding the to the Google Container, but many do not, an a more complete list is convenient, if not prudent.
+
+> :gear: install it directly [as a Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/google-contain-integrations/)
 
 ##### Prevents Google from tracking your visits to other websites
 
@@ -17,7 +18,7 @@ Google Container is an add-on you can install on Firefox to prevent Google from 
 
 #### Installation 
 
-1. Get it from the Firefox Add-on Site
+1. Get it from [the Firefox Add-on Site](https://addons.mozilla.org/en-US/firefox/addon/google-contain-integrations/).
 2. You can install this add-on from the `.xpi` file included in this repo.
 2. Or follow the instructions below:
 
