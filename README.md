@@ -10,7 +10,18 @@ Also an initial list of 3rd party integration apps was added (draw.io, etc).  So
 
 > :gear: install it directly [as a Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/google-contain-integrations/)
 
-##### Prevents Google from tracking your visits to other websites
+### Supported Domains
+
+* cloudcraft.co
+* draw.io
+* bilth.com
+* atlassian.net
+* atlassian.com
+* www.notion.so
+
+Please [open an issue](https://github.com/NewAlexandria/contain-google/issues/new) for any that you find need support!
+
+### Prevents Google from tracking your visits to other websites
 
 Google Container is an add-on you can install on Firefox to prevent Google from tracking your activity on other websites, so you can continue to use Google while protecting your privacy.
 

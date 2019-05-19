@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Google Container - with Integrations",
-    "version": "1.4.13",
+    "version": "1.4.14",
 
     "description": "Fork of the main Google Container, to add domains connected with Drive apps.  These Google-integrated or SSO-dependent apps will not work with containerized cookies.  Isolates your Google activity from the rest of your web activity in order to prevent Google from tracking you outside of the Google website via third party cookies.",
 
