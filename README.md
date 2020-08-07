@@ -17,6 +17,7 @@ Also an initial list of 3rd party integration apps was added (draw.io, etc).  So
 * bilth.com
 * atlassian.net
 * atlassian.com
+* bitbucket.org
 * www.notion.so
 
 Please [open an issue](https://github.com/NewAlexandria/contain-google/issues/new) for any that you find need support!
